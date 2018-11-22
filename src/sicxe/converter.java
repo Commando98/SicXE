@@ -3,6 +3,7 @@ package sicxe;
 public class converter {
 
     private static final String[][] OPTAB = new String[59][3];
+    static final String[] R = new String[10];
 
     public static void initialize() {
         OPTAB[0] = new String[]{"FIX", "1", "C4"};
@@ -64,6 +65,15 @@ public class converter {
         OPTAB[56] = new String[]{"TD", "3", "E0"};
         OPTAB[57] = new String[]{"TIX", "3", "2C"};
         OPTAB[58] = new String[]{"WD", "3", "DC"};
+        R[0]="A";
+        R[1]="X";
+        R[2]="L";
+        R[3]="B";
+        R[4]="S";
+        R[5]="T";
+        R[6]="F";
+        R[8]="PC";
+        R[9]="SW";
     }
 
     String getopcode(int x, int j) {
