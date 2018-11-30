@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="SicXE">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/dist/SicXE.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
